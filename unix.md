@@ -2,6 +2,8 @@
 
  [Valid bash scripts](https://www.shellcheck.net/)
  
+ [Explain commands](https://explainshell.com/explain?cmd=%09netstat+-tlnp+2%3E%261+%7C+grep+1234+%7C+awk+-F%27%5B+%2F%5D%2B%27+%27%7Bprint+%247%7D%27+%7C+xargs+kill)
+
 
 #### check for required parameters in a bash script
 

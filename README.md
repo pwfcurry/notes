@@ -1,8 +1,9 @@
 # notes
 
 - [docker](docker.md)
-- [fix](fix.md)
+- [Enzyme/Selenium](testing.md)
+- [FIX](fix.md)
+- [git](git.md)
 - [kubernetes](kubernetes.md)
-- [testing](testing.md) (Enzyme/Selenium)
 - [unix](unix.md)
 - [vagrant](vagrant.md)
