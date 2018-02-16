@@ -17,6 +17,8 @@
 		
 ## Testing with Selenium
 
+[Tips](http://elementalselenium.com/tips)
+
 - When using `xpath(...)` make sure you're passing an xpath, not a css selector...
 
 - `element.text` does not work on `<input>`, use `.attribute("value")` instead.

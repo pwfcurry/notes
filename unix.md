@@ -1,5 +1,8 @@
 # Unix
 
+ [Valid bash scripts](https://www.shellcheck.net/)
+ 
+
 #### check for required parameters in a bash script
 
 Easy way to check parameter has been set, and fail with message when missing:
