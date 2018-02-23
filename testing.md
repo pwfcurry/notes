@@ -3,10 +3,10 @@
 - Export both the plain and the connect components, and selectors if applicable. Don't test the connected component.
 
 - If the plain component has nested connected components, it cannot be rendered via `mount` without first mocking the
- redux store. Instead render with `shallow` - this will not traverse into React components.
+ redux store. Instead render with `shallow` - this will not render React components.
 	- Don't call `.html` when shallow mounting - this fully mounts the component
 
-- To test lifecycle methods (componentDidUpdate, componentDidMount etc) either `mount` or pass
+- To test lifecycle methods (`componentDidUpdate`, `componentDidMount` etc) either `mount` or pass
  `{ lifecycleExperimental: true }` as the second parameter to `shallow`.
 
 		const view = shallow(<Component>, { lifecycleExperimental: true });

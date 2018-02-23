@@ -12,17 +12,17 @@ Easy way to check parameter has been set, and fail with message when missing:
 	#!/bin/bash -e
 	PARAM=${1?"Usage: $0 <param>"}
 	
-#### sed: replace over multiple lines
+#### replace over multiple lines
 
 Replaces all new lines with commas
 
 	sed ':a;N;$!ba;s/\n/, /g'
 	
-#### grep: matching unprintable characters
+#### matching unprintable characters
 
 	grep -P "\x01"
 
-#### awk: specify separator
+#### specify separator
 
 	awk -F 'abc' {print $1 }
 	awk -F '[1-9]+' {print $1 }
@@ -45,3 +45,7 @@ Replaces all new lines with commas
 #### combine stout and sterr streams
 
 	scriptWithError.sh 2>&1 > out.log
+
+#### print every nth line
+
+	awk '!(NR%123)'
