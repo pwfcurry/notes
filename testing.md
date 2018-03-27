@@ -26,3 +26,6 @@
 - When using the remote web driver, you may have to manually scroll to elements if they are not visible on the page -
  this isn't necessary when running locally.
  
+ ### Updating chromedriver
+ 	sudo yarn global add chromedriver --prefix /usr/bin
+ 
