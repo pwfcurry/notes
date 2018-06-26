@@ -49,3 +49,7 @@ Replaces all new lines with commas
 #### print every nth line
 
 	awk '!(NR%123)'
+
+#### ports used by process
+
+	lsof -i -n -P | grep something
