@@ -1,0 +1,5 @@
+navigate to about:config
+
+browser.backspace_action=0 (use backspace as back button)
+mousewheel.min_line_scroll_amount=60 (scroll speed)
+

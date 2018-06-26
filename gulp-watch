@@ -1,0 +1,8 @@
+Error: watch <filepath> ENOSPC
+
+could be caused by OS limits. increase via:
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+https://github.com/gulpjs/gulp/issues/217
+

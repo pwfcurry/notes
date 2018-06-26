@@ -1,0 +1,19 @@
+https://help.ubuntu.com/community/PostgreSQL
+http://www.postgresql.org/docs/9.1/static/auth-pg-hba-conf.html
+
+
+instal postgres using package manager.
+
+run psql from the postgres user: sudo -u postgres psql
+
+change passwords from within psql: \password [user]
+
+add users: sudo -u postgres createuser [username] (optionally, --superuser)
+
+change user permissions: locate pg_hba.conf, add the user, then reload: sudo /etc/init.d/postgresql reload 
+
+to change database owner in psql: alter database [name] owner to [user];
+
+to create databse in psql: create database [name] with owner=[user];
+
+
