@@ -15,6 +15,8 @@
 
 		const view = mount(<Component>, { context: { router: MockRouter } });
 		
+- When `mount`ing, If `.find()` returns duplicate nodes, exclude unnecessary with `.hostNodes()`
+		
 ## Testing with Selenium
 
 [Tips](http://elementalselenium.com/tips)
