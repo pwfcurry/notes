@@ -53,3 +53,7 @@ Replaces all new lines with commas
 #### ports used by process
 
 	lsof -i -n -P | grep something
+
+#### ulimits
+
+configured at /etc/security/limits.conf and /etc/security/limits.d/
